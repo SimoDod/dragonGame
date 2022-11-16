@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon Game</title>
+
+    <link rel="stylesheet" href="./DGStyles.css">
+
+</head>
+
+<body>
+    <!-- game screen -->
+    <div class="game-section">
+      
+      <!-- game start screen -->
+      <div class="game-start">Press to Play!</div>
+
+      <!-- go home button -->
+      <div class="go-home" onclick="location.href='../index.html';" style="cursor: pointer;">Go Home!</div>
+
+      <!-- score -->
+      <div class="game-score"><span class="points">0</span>pts.</div>
+
+
+      <!-- main game area -->
+      <div class="game-area"></div>
+
+
+      <!-- game over -->
+      <div class="game-over hide">
+        <a href="./index.html"><input type="button" value="Start Over!" id="start-over-btn"></a> Game Over ;( <a href="../index.html">
+        <input type="button" value="Go Home!" id="go-home-btn"></a>
+        </div>
+    </div>
+     <!-- game screen ends -->
+
+    <script src="../dragonGame/JS-files/main.js"></script>
+    
+</body>
+
+</html>
